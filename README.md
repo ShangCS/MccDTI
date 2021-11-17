@@ -1,8 +1,8 @@
 # MccDTI
-Paper "Multi-view network embedding for drug-target Interactions prediction by consistent and complementary information preserving"
+## Paper "Multi-view network embedding for drug-target Interactions prediction by consistent and complementary information preserving"
 
 ## Dependencies
-MccDTI is tested to work under Python 3.6.2 and Matlab 2019a.
+MccDTI is tested on Ubuntu 18.04 with Python 3.6.2 and Matlab R2019a installed.
 
 ## Code
 - DTI.m: predict drug-target interactions (DTIs) with PU-Matrix Completion
