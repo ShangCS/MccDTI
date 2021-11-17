@@ -1,6 +1,6 @@
 import numpy as np
 import linecache
-from Utils.utils import *
+from utils import *
 
 class Dataset(object):
 
