@@ -63,7 +63,7 @@ Run the corresponding script, e.g.
 matlab run_DTI.py
 ```
 
-## Tips
+### Tips
 Please create the following log folders in this project directory.
 ```
 ./Log/deepDTnet_data
