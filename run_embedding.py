@@ -1,6 +1,6 @@
 import numpy as np
 import linecache
-from Dataset.dataset import Dataset
+from Utils.dataset import Dataset
 from Model.model import Model
 from Trainer.trainer import Trainer
 from Trainer.pretrainer import PreTrainer
