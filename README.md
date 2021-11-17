@@ -1,5 +1,5 @@
 # MccDTI
-Multi-view network embedding for drug-target Interactions prediction by consistent and complementary information preserving
+Paper "Multi-view network embedding for drug-target Interactions prediction by consistent and complementary information preserving"
 
 # Dependencies
 MccDTI is tested to work under Python 3.6.2 and Matlab 2019a.
@@ -47,20 +47,20 @@ protein_disease.txt: Protein-Disease association similarity
 mat_drug_protein.txt: Known 1,923 drug-target interactions connecting 708 approved drugs and 1,512 human targets.
 
 # Tutorial
-# Preprocess data
+## Preprocess data
 To get high-order similarity data, enter into the Database directory and run preprocessing script, e.g.
 ```
 python preprocessing.py
 ```
 
-# Learning low-dimensional representations of drug and protein
+## Learning low-dimensional representations of drug and protein
 Using initial similarity and high-order similarity data and run the corresponding script, e.g.
 
 ```
 python run_embedding.py
 ```
 
-# DTIs Predication
+## DTIs Predication
 Run the corresponding script, e.g.
 
 ```
