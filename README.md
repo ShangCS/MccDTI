@@ -55,16 +55,21 @@ python preprocessing.py
 
 ### Learning low-dimensional representations of drug and protein
 Using initial similarity and high-order similarity data and run the corresponding script, e.g.
-
 ```
 python run_embedding.py
 ```
 
 ### DTIs Predication
 Run the corresponding script, e.g.
-
 ```
 matlab run_DTI.py
+```
+
+## Tips
+Please create the following log folders in this project directory.
+```
+./Log/deepDTnet_data
+./Log/DTINet_data
 ```
 
 ## Paper
