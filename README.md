@@ -1,17 +1,17 @@
-##MccDTI
+# MccDTI
 Multi-view network embedding for drug-target Interactions prediction by consistent and complementary information preserving
 
-##Dependencies
+# Dependencies
 MccDTI is tested to work under Python 3.6.2 and Matlab 2019a.
 
-##Code
+# Code
 DTI.m: predict drug-target interactions (DTIs) with PU-Matrix Completion
 run_DTINet.m: running DTI.m for drug-target prediction
 run_embedding.py: learning low-dimensional representation by multi-view network embedding model
 Database/preprocessing.py: preprocess the similarity data of drug and protein to obtain high-order similarity data
 Result/ directory: We provided the pre-trained representations for deepDTnet and DTINet data sets, which were used to produce the results in our paper
 
-##Data
+# Data
 Database/deepDTnet_data/ directory: deepDTnet data set (originally data from https://github.com/ChengF-Lab/deepDTnet)
 drug_node_list.txt: list of drug unique identifier and drug names and index
 drugdrug.txt: Drug-Drug interaction similarity
@@ -46,7 +46,7 @@ protein_disease.txt: Protein-Disease association similarity
 *_G.txt: All high-order similarity data
 mat_drug_protein.txt: Known 1,923 drug-target interactions connecting 708 approved drugs and 1,512 human targets.
 
-##Tutorial
+# Tutorial
 # Preprocess data
 To get high-order similarity data, enter into the Database directory and run preprocessing script, e.g.
 ```
@@ -67,6 +67,6 @@ Run the corresponding script, e.g.
 matlab run_DTI.py
 ```
 
-##Paper
+# Paper
 Please cite our paper if you find the code useful for your research.
 ***
