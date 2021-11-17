@@ -30,7 +30,6 @@ MccDTI is tested to work under Python 3.6.2 and Matlab 2019a.
 - proteinsim2network.txt: Protein biological processes similarity
 - proteinsim3network.txt: Protein cellular component similarity
 - proteinsim4network.txt: Protein molecular function similarity
-- *_G.txt: All high-order similarity data
 - drugProtein.txt: Known 4,978 drug-target interactions connecting 732 approved drugs and 1,915 human targets.
 
 #### Database/DTINet_data/ directory: DTINet data set (originally data from https://github.com/luoyunan/DTINet)
@@ -43,7 +42,6 @@ MccDTI is tested to work under Python 3.6.2 and Matlab 2019a.
 - Proteins.txt: Protein sequence similarity
 - protein_protein.txt: Protein-Protein interaction similarity
 - protein_disease.txt: Protein-Disease association similarity
-- *_G.txt: All high-order similarity data
 - mat_drug_protein.txt: Known 1,923 drug-target interactions connecting 708 approved drugs and 1,512 human targets.
 
 ## Tutorial
