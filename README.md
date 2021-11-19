@@ -9,10 +9,9 @@ MccDTI is tested on Ubuntu 18.04 with Python 3.6.2 and Matlab R2019a installed.
 - run_DTINet.m: running DTI.m for drug-target prediction
 - run_embedding.py: learning low-dimensional representation by multi-view network embedding model
 - Database/preprocessing.py: preprocess the similarity data of drug and protein to obtain high-order similarity data
-- Result/ directory: We provided the pre-trained representations for deepDTnet and DTINet data sets, which were used to produce the results in our paper
 
 ## Data
-#### Database/deepDTnet_data/ directory: deepDTnet data set (originally data from https://github.com/ChengF-Lab/deepDTnet)
+#### Database/deepDTnet_data/ directory: deepDTnet dataset (originally data from https://github.com/ChengF-Lab/deepDTnet)
 - drug_node_list.txt: list of drug unique identifier and drug names and index
 - drugdrug.txt: Drug-Drug interaction similarity
 - drugDisease.txt: Drug-Disease association similarity
@@ -32,7 +31,7 @@ MccDTI is tested on Ubuntu 18.04 with Python 3.6.2 and Matlab R2019a installed.
 - proteinsim4network.txt: Protein molecular function similarity
 - drugProtein.txt: Known 4,978 drug-target interactions connecting 732 approved drugs and 1,915 human targets.
 
-#### Database/DTINet_data/ directory: DTINet data set (originally data from https://github.com/luoyunan/DTINet)
+#### Database/DTINet_data/ directory: DTINet dataset (originally data from https://github.com/luoyunan/DTINet)
 - drug_node_list.txt: list of drug unique identifier and drug names and index
 - Drugs.txt: Drug chemical similarity
 - drug_drug.txt: Drug-Drug interaction similarity
@@ -43,6 +42,18 @@ MccDTI is tested on Ubuntu 18.04 with Python 3.6.2 and Matlab R2019a installed.
 - protein_protein.txt: Protein-Protein interaction similarity
 - protein_disease.txt: Protein-Disease association similarity
 - mat_drug_protein.txt: Known 1,923 drug-target interactions connecting 708 approved drugs and 1,512 human targets.
+
+
+## Results
+#### Result/deepDTnet_data/ directory:
+- Supplementary Data 1.csv: The list of top 3000 drug-target interactions predicted by MccDTI on deepDTnet dataset
+- drug_emb_900.txt: Drug representation feature of deepDTnet dataset
+- protein_emb_900.txt: Protein representation feature of deepDTnet dataset
+
+#### Result/DTINet_data/ directory:
+- Supplementary Data 2.csv: The list of top 3000 drug-target interactions predicted by MccDTI on DTINet dataset
+- drug_emb_600.txt: Drug representation feature of DTINet dataset
+- protein_emb_900.txt: Protein representation feature of DTINet dataset
 
 ## Tutorial
 ### Preprocess data
