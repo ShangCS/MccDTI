@@ -71,7 +71,7 @@ python run_embedding.py
 ### DTIs Predication
 Run the corresponding script, e.g.
 ```
-matlab run_DTI.py
+matlab run_DTI.m
 ```
 
 ### Tips
